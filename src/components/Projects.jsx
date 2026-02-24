@@ -23,7 +23,7 @@ const projects = [
     description:
       "LJ University Hackathon Finalist — An AI-assisted bookkeeping tool for small businesses and freelancers. Automates expense categorisation, generates profit/loss summaries, and supports natural-language queries over financial data — removing the steep learning curve of traditional accounting software. Built on a MERN stack with an AI layer for smart data interpretation and report generation.",
     tags: ["React.js", "Node.js", "Express.js", "MongoDB", "AI"],
-    link: "https://github.com/smit061205/Munim.AI",
+    link: "https://munim-ai-flame.vercel.app/",
     year: "2024",
   },
   {
