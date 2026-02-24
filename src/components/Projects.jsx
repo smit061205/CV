@@ -19,6 +19,15 @@ const projects = [
   },
   {
     number: "02",
+    title: "Trinetras",
+    description:
+      "Freelance — A fully featured e-commerce storefront built for a fashion and lifestyle brand. Includes a product catalogue with filtering, a smooth cart and checkout experience integrated with Razorpay for payments, order tracking, and an admin dashboard for inventory and order management. Delivered end-to-end from design to deployment, optimised for mobile and built to handle real-world traffic.",
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Razorpay"],
+    link: "https://trinetras.store/",
+    year: "2025",
+  },
+  {
+    number: "03",
     title: "Munim.AI",
     description:
       "LJ University Hackathon Finalist — An AI-assisted bookkeeping tool for small businesses and freelancers. Automates expense categorisation, generates profit/loss summaries, and supports natural-language queries over financial data — removing the steep learning curve of traditional accounting software. Built on a MERN stack with an AI layer for smart data interpretation and report generation.",
@@ -27,13 +36,13 @@ const projects = [
     year: "2024",
   },
   {
-    number: "03",
+    number: "04",
     title: "MusicChain",
     description:
       "A decentralized music streaming and publishing platform built to put artists first. Records song ownership and automates royalty splits via smart contracts — eliminating intermediaries. Artists upload tracks, set royalty percentages for collaborators, and receive payments directly while listeners stream in a fully transparent ecosystem.",
     tags: ["React.js", "Node.js", "Blockchain", "Web3", "Smart Contracts"],
     link: "https://music-chain-sooty.vercel.app/",
-    year: "2026",
+    year: "2024",
   },
 ];
 
