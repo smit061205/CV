@@ -8,7 +8,7 @@ const socials = [
   },
   {
     label: "Resume",
-    href: "https://drive.google.com/file/d/1OQKFblNxUpds1wDEVVeFZxyqPsQZOQJb/view?usp=drive_link",
+    href: "https://drive.google.com/file/d/1assFWIbWOWW4M_vlyH-0QbEqbpLIfXRK/view?usp=sharing",
   },
 ];
 
