@@ -16,6 +16,7 @@ const projects = [
     ],
     link: "https://ai-sikhya.vercel.app/",
     year: "2025",
+    wip: true,
   },
   {
     number: "02",
@@ -115,8 +116,14 @@ export default function Projects() {
 
                 {/* Title + Description */}
                 <div className="md:col-span-6">
-                  <h3 className="text-2xl font-bold tracking-tight group-hover:underline underline-offset-4 decoration-1 mb-3 transition-all flex items-center gap-2">
+                  <h3 className="text-2xl font-bold tracking-tight group-hover:underline underline-offset-4 decoration-1 mb-3 transition-all flex items-center gap-3 flex-wrap">
                     {project.title}
+                    {project.wip && (
+                      <span className="inline-flex items-center gap-1.5 px-2 py-0.5 text-[10px] font-mono font-semibold tracking-widest uppercase border border-amber-400 text-amber-500 rounded-sm">
+                        <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
+                        In Progress
+                      </span>
+                    )}
                     <span className="inline-flex opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
